@@ -1,0 +1,468 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.ols.Fragment4">
+    <android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.example.hp.llapp.Acknowledgement"
+       >
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linear">
+
+            <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TableRow>
+
+                    <TextView
+                        android:text="@string/class1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_column="1" />
+                </TableRow>
+                    <EditText
+                        android:width="200px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ABC"
+                        android:id="@+id/ed1" />
+
+
+                <TableRow>
+
+                    <TextView
+                        android:text="@string/class2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_column="1" />
+                </TableRow>
+                    <EditText
+                        android:width="100px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5/4/17"
+                        android:id="@+id/ed2" />
+
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <TextView
+                        android:text="@string/class3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_column="1" />
+                </TableRow>
+                    <EditText
+                        android:width="300px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10/10/2000"
+                        android:id="@+id/ed3" />
+
+
+
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <TextView
+                        android:text="@string/class4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_column="1" />
+                </TableRow>
+                    <EditText
+                        android:width="100px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A+"
+                        android:id="@+id/ed4" />
+
+
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                    <TextView
+                        android:text="@string/class5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_column="1" />
+                </TableRow>
+                    <EditText
+                        android:width="100px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="XYZ"
+                        android:id="@+id/ed5" />
+
+
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                    <TextView
+                        android:text="@string/class6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_column="1" />
+                </TableRow>
+                    <EditText
+                        android:width="100px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="FEMALE"
+                        android:id="@+id/ed6" />
+
+
+                <TableRow android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:text="@string/class7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_column="1" />
+                </TableRow>
+                    <EditText
+                        android:width="200px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ABC"
+                        android:id="@+id/ed7" />
+
+
+                <TableRow>
+
+                    <TextView
+                        android:text="@string/class8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_column="1" />
+                </TableRow>
+                    <EditText
+                        android:width="100px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5/4/17"
+                        android:id="@+id/ed8" />
+
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <TextView
+                        android:text="@string/class9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_column="1" />
+                </TableRow>
+                    <EditText
+                        android:width="300px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10/10/2000"
+                        android:id="@+id/ed9" />
+
+
+
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <TextView
+                        android:text="@string/class10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_column="1" />
+                </TableRow>
+                    <EditText
+                        android:width="100px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A+"
+                        android:id="@+id/ed10" />
+
+
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                    <TextView
+                        android:text="@string/class11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_column="1" />
+                </TableRow>
+                    <EditText
+                        android:width="100px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="XYZ"
+                        android:id="@+id/ed11" />
+
+
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                    <TextView
+                        android:text="@string/class12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_column="1" />
+                </TableRow>
+                    <EditText
+                        android:width="100px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="FEMALE"
+                        android:id="@+id/ed12" />
+
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                    <TextView
+                        android:text="@string/class13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_column="1" />
+                </TableRow>
+                    <EditText
+                        android:width="100px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="XYZ"
+                        android:id="@+id/ed13" />
+
+
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                    <TextView
+                        android:text="@string/class14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_column="1" />
+
+                    <EditText
+                        android:width="100px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="FEMALE"
+                        android:id="@+id/ed14" /> </TableRow>
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                    <TextView
+                        android:text="@string/class14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_column="1" />
+</TableRow>
+                    <EditText
+                        android:width="100px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="FEMALE"
+                        android:id="@+id/ed15" />
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                    <TextView
+                        android:text="@string/class16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_column="1" />
+                </TableRow>
+                    <EditText
+                        android:width="100px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="FEMALE"
+                        android:id="@+id/ed16" />
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                    <TextView
+                        android:text="@string/class17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_column="1" />
+                </TableRow>
+                    <EditText
+                        android:width="100px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="FEMALE"
+                        android:id="@+id/ed17" />
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                    <TextView
+                        android:text="@string/class18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_column="1" />
+                </TableRow>
+                    <EditText
+                        android:width="100px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="FEMALE"
+                        android:id="@+id/ed18" />
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                    <TextView
+                        android:text="@string/class19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_column="1" />
+                </TableRow>
+                    <EditText
+                        android:width="100px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="FEMALE"
+                        android:id="@+id/ed19" />
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                    <TextView
+                        android:text="@string/class20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_column="1" />
+                </TableRow>
+                    <EditText
+                        android:width="100px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="FEMALE"
+                        android:id="@+id/ed20" />
+
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                    <TextView
+                        android:text="@string/string1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_column="1" />
+                </TableRow>
+                    <EditText
+                        android:width="100px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="FEMALE"
+                        android:id="@+id/ed21" />
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <TextView
+                    android:text="ARE YOU FROM DRIVING SCHOOL?"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_column="1" />
+</TableRow>
+                <EditText
+                    android:width="100px"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FEMALE"
+                    android:id="@+id/ed22" />
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                    <TextView
+                        android:text="@string/text24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_column="1" />
+                </TableRow>
+                    <EditText
+                        android:width="100px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="FEMALE"
+                        android:id="@+id/ed23" />
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                    <TextView
+                        android:text="@string/text25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_column="1" />
+                </TableRow>
+                    <EditText
+                        android:width="100px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="FEMALE"
+                        android:id="@+id/ed24" />
+
+
+            </TableLayout>
+
+<Button
+    android:id="@+id/submitt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="next"/>
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="back"/>
+
+        </LinearLayout></ScrollView>
+    </android.support.v4.widget.NestedScrollView>
+
+</FrameLayout>

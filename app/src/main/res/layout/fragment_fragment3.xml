@@ -1,0 +1,141 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.ols.Fragment3">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.example.hp.llapp.ScrollingActivity4"
+        tools:showIn="@layout/activity_scrolling4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="16dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="DECLARATION"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:paddingLeft="50dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/firebrick"
+                android:textSize="18dp"
+                android:id="@+id/declaration" />
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="1."
+                android:textAllCaps="true"
+                android:id="@+id/textv31" />
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="@string/text24"
+                android:textAllCaps="true"
+                android:id="@+id/declare1" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:text="PLEASE TICK IF WILLING"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:id="@+id/chkbx1"/>
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="2."
+                android:textAllCaps="true"
+                android:id="@+id/declare2" />
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="@string/text25"
+                android:textAllCaps="true"
+                android:id="@+id/declare22" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:text="YES"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:id="@+id/checkboxyes"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="address"
+                    android:text="submit"
+                    android:textColor="@color/white"
+                    android:background="@color/colorPrimary"
+                    android:cursorVisible="true"
+                    android:gravity="center"
+                    android:id="@+id/bt5" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:onClick="refreshbtn"
+                    android:text="Refresh"
+                    android:textColor="@color/white"
+                    android:background="@color/colorPrimary"
+                    android:cursorVisible="true"
+                    android:gravity="center"
+                    android:id="@+id/bt6" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:onClick="cancel"
+                    android:text="Cancel"
+                    android:textColor="@color/white"
+                    android:background="@color/colorPrimary"
+                    android:cursorVisible="true"
+                    android:gravity="center"
+                    android:id="@+id/bt7" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</FrameLayout>

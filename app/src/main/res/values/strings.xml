@@ -1,0 +1,949 @@
+<resources>
+    <string name="app_name">OLS</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+
+    <string name="text1">
+        "Instructions For Application Submission\n\n"
+
+
+    </string>
+
+    <string name="text2">
+        "Following Are The Stages In Application Submission In Issuing Learner's License In Following Order:\n"
+    </string>
+
+
+    <string name="text3">
+        "1.Fill Applicant Details\n"
+        "2.Upload Documents\n"
+        "3.Upload Photo And Signature\n"
+        "4.Learning License Test Slot Booking\n"
+        "5.Payment Of Fee\n\n"
+
+     </string>
+    "Notice To Applications Submitted To RTO,Aurangabad Only.\n\n"
+    "If they are already holding a learner's license they should not submit there applications here"
+    "and rather they should submit there applications directly at the RTO offices."
+
+
+    <string name="text4">
+        Application For Learner\'s License(LL)
+    </string>
+
+    <string name="text5">
+        "I do not have any license\n"
+    </string>
+
+
+    <string name="text6">
+        "holding driving license,Enter driving license number"
+
+    </string>
+
+    <string name="text7">
+        "Driving License Number"
+
+    </string>
+
+
+    <string name="text8">
+        "Date of Birth"
+    </string>
+
+    <string name="text9">
+
+        "holding learner\'s license,Enter Learning License number"
+    </string>
+
+    <string name="text10">
+        "Learning License Number"
+    </string>
+
+
+    <string name="text11">
+        "Select RTO office from where LL is being applied."
+    </string>
+
+    <string name="text12">
+        "*"
+    </string>
+
+
+    <string-array name="spinner">
+        <item>ASSAM</item>
+        <item>CHANDIGARH</item>
+        <item>DELHI</item>
+        <item>GUJRATH</item>
+        <item>HARYANA</item>
+        <item>HIMACHAL PRADESH</item>
+        <item>JAMMU AND KASHMIR</item>
+        <item>JHARKHAND</item>
+        <item>KARNATAKA</item>
+        <item>MAHARASHTRA</item>
+        <item>MEGHALAYA</item>
+        <item>ODISHA</item>
+        <item>PONDICHERRY</item>
+        <item>RAJASTHAN</item>
+        <item>TAMILNADU</item>
+        <item>UTTARAKHAND</item>
+        <item>UTTAR PRADESH</item>
+
+    </string-array>
+
+
+    <string-array name="spinner_rto">
+        <item>RTO,MUMBAI(EAST)</item>
+        <item>RTO,THANE</item>
+        <item>DY.RTO,PEN(RAIGAD)</item>
+        <item>RTO,KOLHAPUR</item>
+        <item>DY.RTO,SANGLI</item>
+        <item>DY.RTO,SOLAPUR</item>
+        <item>RTO,NASHIK</item>
+        <item>DY.RTO,AHMEDNAGAR</item>
+        <item>DY.RTO,SHRIRAMPUR</item>
+        <item>DY.RTO,JALGAON</item>
+        <item>RTO,AURANGABAD</item>
+        <item>DY.RTO,PARBHANI</item>
+        <item>DY.RTO,BEED</item>
+        <item>RTO,LATUR</item>
+        <item>RTO,NANDED</item>
+        <item>RTO,AMRAVATI</item>
+        <item>RTO,NAGPUR_CITY</item>
+        <item>DY.RTO,GADCHIROLI</item>
+        <item>DY.RTO,GONDIA</item>
+        <item>DY.RTO,VASHIM</item>
+        <item>RTO,NAGPUR_RURAL</item>
+        <item>DY.RTO,BARAMATI</item>
+        <item>DY.RTO,VASHI</item>
+        <item>RTO,PANVEL</item>
+        <item>DY.RTO,NAGPUR(EAST)</item>
+    </string-array>
+
+
+    <string name="text13">
+        "PINCODE"
+    </string>
+
+    <string name="text14">
+        "Personal Details"
+    </string>
+
+    <string name="text15">
+        "First Name"
+    </string>
+
+     <string name="text16">
+        "Middle Name"
+    </string>
+
+     <string name="text17">
+        "Last Name"
+    </string>
+
+    <string name="text18">
+        "Adhar Number"
+    </string>
+
+    <string name="text19">
+        "NPR Number"
+    </string>
+
+    <string name="text20">
+        "FULL NAME"
+    </string>
+
+    <string name="text21">
+        "Ex. 04023659856"
+    </string>
+
+<string name="text22">
+        "Ex. abc@email.com"
+    </string>
+
+    <string name="text23">
+        "Ex. 9876543210"
+    </string>
+
+    <string name="text24">
+        "I am willing to donate my organs, in case of accidental death?"
+    </string>
+
+    <string name="text25">
+        "I hereby declare that to the best of my knowledge and belief the particulars given above are true."
+    </string>
+
+
+    <string-array name="spinner_relation">
+        <item>FATHER</item>
+        <item>MOTHER</item>
+        <item>HUSBAND</item>
+        <item>GUARDIAN</item>
+    </string-array>
+
+
+    <string-array name="spinner_qualification">
+        <item>Illiterate</item>
+        <item>Below 8th</item>
+        <item>8th Passed</item>
+        <item>10th Standard or Equivalent</item>
+        <item>ITI/Certificate Course</item>
+        <item>10+2 or Equivalent</item>
+        <item>Diploma in any Discipline</item>
+        <item>Graduate in any Medical Sciences</item>
+        <item>Graduate in Non Medical Sciences</item>
+        <item>Post Graduate in Non Medical Sciences</item>
+        <item>M.Phil in any Descipline</item>
+        <item>Doctrate in any Descipline </item>
+        <item>Not Specified/NA</item>
+    </string-array>
+
+    <string-array name="spinner_bg">
+        <item>A+</item>
+        <item>A-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>0-</item>
+        <item>UNKNOWN</item>
+    </string-array>
+
+
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+
+    <string-array name="districtlist">
+        <item>SELECT</item>
+        <item>AHMADNAGAR</item>
+        <item>AKOLA</item>
+        <item>AMRAVATI</item>
+        <item>AURANGABAD</item>
+        <item>BHANDARA</item>
+        <item>BID</item>
+        <item>BULDANA</item>
+        <item>CHANDRAPUR</item>
+        <item>DHULE</item>
+        <item>GADCHIROLI</item>
+        <item>GONDIA</item>
+        <item>HINGOLI</item>
+        <item>JALGAON</item>
+        <item>JALNA</item>
+        <item>KOLHAPUR</item>
+        <item>LATUR</item>
+        <item>MUMBAI</item>
+        <item>MUMBAISUBURBAN</item>
+        <item>NAGPUR</item>
+        <item>NANDED</item>
+        <item>NANDURBAR</item>
+        <item>NASHIK</item>
+        <item>OSMANABAD</item>
+        <item>PARBHANI</item>
+        <item>PUNE</item>
+        <item>RAIGARH</item>
+        <item>RATNAGIRI</item>
+        <item>SANGLI</item>
+        <item>SATARA</item>
+        <item>SINDHUDURG</item>
+        <item>SOLAPUR</item>
+        <item>THANE</item>
+        <item>WARDHA</item>
+        <item>WASHIM</item>
+        <item>YAVATMAL</item>
+    </string-array>
+
+
+    <string-array name="subdistrict_aurangabad">
+        <item>SELECT</item>
+        <item>AURANGABAD</item>s.equals(abad.i)
+        <item>GANGAPUR</item>
+        <item>KANNAD</item>
+        <item>KHULTABAD</item>
+        <item>PAITHAN</item>
+        <item>PHULAMBRI</item>
+        <item>SILLOD</item>
+        <item>SOEGAON</item>
+        <item>VAIJAPUR</item>
+    </string-array>
+
+    <string-array name="subdistrict_nagar">
+        <item>SELECT</item>
+        <item>AKOLA</item>
+        <item>JAMKHED</item>
+        <item>KARJAT</item>
+        <item>KOPARGAON</item>
+        <item>NAGAR</item>
+        <item>NEVASA</item>
+        <item>PARNER</item>
+        <item>PATHARDI</item>
+        <item>RAHTA</item>
+        <item>RAHURI</item>
+        <item>RAHURI</item>
+        <item>SANGAMNER</item>
+        <item>SHEVGAON</item>
+        <item>SHRIGONDA</item>
+        <item>SHRIRAMPUR</item>
+    </string-array>
+
+    <string-array name="subdistrict_akola">
+        <item>SELECT</item>
+        <item>AKOLA</item>
+        <item>AKOT</item>
+        <item>BALAPUR</item>
+        <item>BARSHITAKLI</item>
+        <item>MURTIJAPUR</item>
+        <item>PARTUR</item>
+        <item>TELHARA</item>
+    </string-array>
+
+    <string-array name="subdistrict_amravati">
+        <item>SELECT</item>
+        <item>ACHALPUR</item>
+        <item>AMRAVATI</item>
+        <item>ANJANGAON SURJI</item>
+        <item>BHATKULI</item>
+        <item>CHANDURBAZAR</item>
+        <item>CHANDUR RAILWAY</item>
+        <item>CHIKHALDARA</item>
+        <item>DARYAPUR</item>
+        <item>DHAMANGAON RAILWAY</item>
+        <item>DHARNI</item>
+        <item>MORSHI</item>
+        <item>NANDGAON-KHANDESHWAR</item>
+        <item>TEOSA</item>
+        <item>WARUD</item>
+    </string-array>
+
+    <string-array name="subdistrict_bhandara">
+        <item>SELECT</item>
+        <item>BHANDARA</item>
+        <item>LAKHANDUR</item>
+        <item>LAKHANI</item>
+        <item>MOHADI</item>
+        <item>PAUNI</item>
+        <item>SAKOLI</item>
+        <item>TUMSAR</item>
+    </string-array>
+
+    <string-array name="subdistrict_dhule">
+        <item>SELECT</item>
+        <item>DHULE</item>
+        <item>SAKRI</item>
+        <item>SHIRPUR</item>
+        <item>SINDKHEDE</item>
+    </string-array>
+
+    <string-array name="subdistrict_bid">
+        <item>SELECT</item>
+        <item>AMBEJOGAI</item>
+        <item>ASHTI</item>
+        <item>BID</item>
+        <item>DHARUR</item>
+        <item>GEORAI</item>
+        <item>KAIJ</item>
+        <item>MANJLEGAON</item>
+        <item>PARLI</item>
+        <item>PATODA</item>
+        <item>SHIRUR(KASAR)</item>
+        <item>WADWANI</item>
+    </string-array>
+
+    <string-array name="subdistrict_buldana">
+        <item>SELECT</item>
+        <item>BULDANA</item>
+        <item>CHIKHLI</item>
+        <item>DEOLGAON RAJA</item>
+        <item>JALGAON</item>
+        <item>KHAMGAON</item>
+        <item>LONAR</item>
+        <item>MALKAPUR</item>
+        <item>MEHKAR</item>
+        <item>MOTALA</item>
+        <item>NANDURA</item>
+        <item>SANGRAMPUR</item>
+        <item>SHEGAON</item>
+        <item>SINDKHED RAJA</item>
+    </string-array>
+
+    <string-array name="subdistrict_chandrapur">
+        <item>SELECT</item>
+        <item>BALLARPUR</item>
+        <item>BHADRAVATI</item>
+        <item>BRHMAPURI</item>
+        <item>CHANDRAPUR</item>
+        <item>CHIMUR</item>
+        <item>GONDPIPRI</item>
+        <item>JIWATI</item>
+        <item>KORPANA</item>
+        <item>MUL</item>
+        <item>NAGBHIR</item>
+        <item>POMBHURNA</item>
+        <item>RAJURA</item>
+        <item>SAWALI</item>
+        <item>SINDEWAHI</item>
+        <item>WARORA</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="subdistrict_gadchiroli">
+        <item>SELECT</item>
+        <item>AHERI</item>
+        <item>ARMORI</item>
+        <item>BHAMRAGAD</item>
+        <item>CHAMORSHI</item>
+        <item>DESAIGANJ(VADASA)</item>
+        <item>DHANORA</item>
+        <item>ETAPALLI</item>
+        <item>GADCHIROLI</item>
+        <item>KORCHI</item>
+        <item>KURKHEDA</item>
+        <item>MULCHERA</item>
+        <item>SIRONCHA</item>
+    </string-array>
+
+
+    <string-array name="subdistrict_gondia">
+        <item>SELECT</item>
+        <item>AMGAON</item>
+        <item>ARJUNI MORGAON</item>
+        <item>DEORI</item>
+        <item>GONDIA</item>
+        <item>GOREGAON</item>
+        <item>SADAK-ARJUNI</item>
+        <item>SALEKASA</item>
+        <item>TIRORA</item>
+    </string-array>
+
+    <string-array name="subdistrict_hingoli">
+        <item>SELECT</item>
+        <item>AUNDHA(NAGNATH)</item>
+        <item>BASMATH</item>
+        <item>HINGOLI</item>
+        <item>KALAMNURI</item>
+        <item>SENGAON</item>
+    </string-array>
+
+    <string-array name="subdistrict_jalgaon">
+        <item>SELECT</item>
+        <item>AMALNER</item>
+        <item>BHADGAON</item>
+        <item>BHUSAWAL</item>
+        <item>BODVAD</item>
+        <item>CHALISGAON</item>
+        <item>CHOPDA</item>
+        <item>DHARANGAON</item>
+        <item>ERANDOL</item>
+        <item>JALGAON</item>
+        <item>JAMNER</item>
+        <item>MUKTAINAGAR(EDLABAD)</item>
+        <item>PACHORA</item>
+        <item>PAROLA</item>
+        <item>RAVER</item>
+        <item>YAWAL</item>
+    </string-array>
+
+    <string-array name="subdistrict_jalna">
+        <item>SELECT</item>
+        <item>AMBAD</item>
+        <item>BADNAPUR</item>
+        <item>BHOKARDAN</item>
+        <item>GHANSAWANGI</item>
+        <item>JAFFERABAD</item>
+        <item>JALNA</item>
+        <item>MANTHA</item>
+        <item>PARTUR</item>
+    </string-array>
+
+    <string-array name="subdistrict_kolhapur">
+        <item>SELECT</item>
+        <item>AJRA</item>
+        <item>BAVDA</item>
+        <item>BHUDARGAD</item>
+        <item>CHANDGAD</item>
+        <item>GADHINGLAJ</item>
+        <item>HATKANANGLE</item>
+        <item>KAGAL</item>
+        <item>KARVIR</item>
+        <item>PANHALA</item>
+        <item>RADHANAGARI</item>
+        <item>SHAHUWADI</item>
+        <item>SHIROL</item>
+    </string-array>
+
+    <string-array name="subdistrict_latur">
+        <item>SELECT</item>
+        <item>AHMADPUR</item>
+        <item>AUSA</item>
+        <item>CHAKUR</item>
+        <item>DEONI</item>
+        <item>JALKOT</item>
+        <item>LATUR</item>
+        <item>NILANGA</item>
+        <item>RENAPUR</item>
+        <item>SHIRUR-ANANTPAL</item>
+        <item>UDGIR</item>
+    </string-array>
+
+    <string-array name="subdistrict_mumbai">
+        <item>SELECT</item>
+        <item>MUMBAI</item>
+    </string-array>
+
+    <string-array name="mumbaisuburban">
+        <item>SELECT</item>
+        <item>GREATER MUMBAI</item>
+    </string-array>
+
+    <string-array name="subdistrict_nagpur">
+        <item>SELECT</item>
+        <item>BHIWAPUR</item>
+        <item>HINGNA</item>
+        <item>KALAMESHWAR</item>
+        <item>KAMPTEE</item>
+        <item>KATOL</item>
+        <item>KUHI</item>
+        <item>MAUDA</item>
+        <item>NAGPUR(RURAL)</item>
+        <item>NAGPUR(URBAN)</item>
+        <item>NARKHED</item>
+        <item>PARSEONI</item>
+        <item>RAMTEK</item>
+        <item>SAVNER</item>
+        <item>UMRED</item>
+    </string-array>
+
+
+    <string-array name="subdistrict_nanded">
+        <item>SELECT</item>
+        <item>ARDHAPUR</item>
+        <item>BHOKAR</item>
+        <item>BILOLI</item>
+        <item>DEGLUR</item>
+        <item>DHARMABAD</item>
+        <item>HADGAON</item>
+        <item>HIMAYATNAGAR</item>
+        <item>KANDHAR</item>
+        <item>KINWAT</item>
+        <item>LOHA</item>
+        <item>MAHOOR</item>
+        <item>MUDKHED</item>
+        <item>MUKHED</item>
+        <item>NAIGAON(KHAIRGAON)</item>
+        <item>NANDED</item>
+        <item>UMRI</item>
+    </string-array>
+
+    <string-array name="subdistrict_nandurbar">
+        <item>SELECT</item>
+        <item>AKKALKUWA</item>
+        <item>AKRANI</item>
+        <item>NANDURBAR</item>
+        <item>NAWAPUR</item>
+        <item>SHAHADE</item>
+        <item>TALODE</item>
+    </string-array>
+
+    <string-array name="subdistrict_nashik">
+        <item>SELECT</item>
+        <item>BAGLAN</item>
+        <item>CHANDVAD</item>
+        <item>DEOLA</item>
+        <item>DINDORI</item>
+        <item>IGATPURI</item>
+        <item>KALWAN</item>
+        <item>MALEGAON</item>
+        <item>NANDGAON</item>
+        <item>NASHIK</item>
+        <item>NIPHAD</item>
+        <item>PEINT</item>
+        <item>SINNAR</item>
+        <item>SURGANA</item>
+        <item>TRIMBAKESHWAR</item>
+        <item>YEVLA</item>
+    </string-array>
+
+    <string-array name="subdistrict_osmanabad">
+        <item>SELECT</item>
+        <item>BHUM</item>
+        <item>KALAMB</item>
+        <item>LOHARA</item>
+        <item>OSMANABAD</item>
+        <item>PARANDA</item>
+        <item>TULJAPUR</item>
+        <item>UMARGA</item>
+        <item>WASHI</item>
+    </string-array>
+
+    <string-array name="subdistrict_parbhani">
+        <item>SELECT</item>
+        <item>GANGAKHED</item>
+        <item>JINTUR</item>
+        <item>MANWATH</item>
+        <item>PALAM</item>
+        <item>PARBHANI</item>
+        <item>PATHRI</item>
+        <item>PURNA</item>
+        <item>SAILU</item>
+        <item>SONPETH</item>
+    </string-array>
+
+
+    <string-array name="subdistrict_pune">
+        <item>SELECT</item>
+        <item>AMBEGAON</item>
+        <item>BARAMATI</item>
+        <item>BHOR</item>
+        <item>DAUND</item>
+        <item>HAVELI</item>
+        <item>INDAPUR</item>
+        <item>JUNNAR</item>
+        <item>KHED</item>
+        <item>MAWAL</item>
+        <item>MULSHI</item>
+        <item>PUNE CITY</item>
+        <item>PURANDHAR</item>
+        <item>SHIRUR</item>
+        <item>VELHE</item>
+    </string-array>
+
+    <string-array name="subdistrict_raigarh">
+        <item>SELECT</item>
+        <item>ALIBAG</item>
+        <item>KARJAT</item>
+        <item>KHALAPUR</item>
+        <item>MAHAD</item>
+        <item>MANGAON</item>
+        <item>MHASLA</item>
+        <item>MURUD</item>
+        <item>PANVEL</item>
+        <item>PEN</item>
+        <item>POLADPUR</item>
+        <item>ROHA</item>
+        <item>SHRIVARDHAN</item>
+        <item>SUDHAGAD</item>
+        <item>TALA</item>
+        <item>URAN</item>
+    </string-array>
+
+    <string-array name="subdistrict_ratnagiri">
+        <item>SELECT</item>
+        <item>CHIPLUN</item>
+        <item>DAPOLI</item>
+        <item>GUHAGAR</item>
+        <item>KHED</item>
+        <item>LANJA</item>
+        <item>MANDANGAD</item>
+        <item>RAJAPUR</item>
+        <item>RATNAGIRI</item>
+        <item>SANGAMESHWAR</item>
+    </string-array>
+
+
+    <string-array name="subdistrict_sangli">
+        <item>SELECT</item>
+        <item>ATPADI</item>
+        <item>JAT</item>
+        <item>KADEGAON</item>
+        <item>KAVATHEMAHANKAL</item>
+        <item>KHANAPUR</item>
+        <item>MIRAJ</item>
+        <item>PALUS</item>
+        <item>SHIRALA</item>
+        <item>TASGAON</item>
+        <item>WALWA</item>
+    </string-array>
+
+    <string-array name="subdistrict_satara">
+        <item>SELECT</item>
+        <item>JAOLI</item>
+        <item>KARAD</item>
+        <item>KHANDALA</item>
+        <item>KHATAV</item>
+        <item>KOREGAON</item>
+        <item>MAHABALESHWAR</item>
+        <item>MAN</item>
+        <item>PATAN</item>
+        <item>PHALTAN</item>
+        <item>SATARA</item>
+        <item>WAI</item>
+    </string-array>
+
+
+    <string-array name="subdistrict_sindhudurg">
+        <item>SELECT</item>
+        <item>DEVGAD</item>
+        <item>DODAMARG</item>
+        <item>KANKAVALI</item>
+        <item>KUDAL</item>
+        <item>MALWAN</item>
+        <item>SAWANTWADI</item>
+        <item>VAIBHAVVADI</item>
+        <item>VENGURLA</item>
+    </string-array>
+
+
+    <string-array name="subdistrict_solapur">
+        <item>SELECT</item>
+        <item>AKKALKOT</item>
+        <item>BARSHI</item>
+        <item>KARMALA</item>
+        <item>MADHA</item>
+        <item>MALSHIRAS</item>
+        <item>MANGALVEDHE</item>
+        <item>MOHOL</item>
+        <item>PANDHARPUR</item>
+        <item>SANGOLE</item>
+        <item>SOLAPUR NORTH</item>
+        <item>SOLAPUR SOUTH</item>
+    </string-array>
+
+    <string-array name="subdistrict_thane">
+        <item>SELECT</item>
+        <item>AMBARNATH</item>
+        <item>BHIWANDI</item>
+        <item>DAHANU</item>
+        <item>JAWHAR</item>
+        <item>KALYAN</item>
+        <item>MOKHADA</item>
+        <item>MURBAD</item>
+        <item>PALGHAR</item>
+        <item>SHAHAPUR</item>
+        <item>TALASARI</item>
+        <item>THANE</item>
+        <item>ULHASNAGAR</item>
+        <item>VADA</item>
+        <item>VASAI</item>
+        <item>VIKRAMGAD</item>
+    </string-array>
+
+    <string-array name="subdistrict_wardha">
+        <item>SELECT</item>
+        <item>ARVI</item>
+        <item>ASHTI</item>
+        <item>DEOLI</item>
+        <item>HINGANGHAT</item>
+        <item>KARANJA</item>
+        <item>SAMUDRAPUR</item>
+        <item>SELOO</item>
+        <item>WARDHA</item>
+    </string-array>
+
+    <string-array name="subdistrict_washim">
+        <item>SELECT</item>
+        <item>KARANJA</item>
+        <item>MALEGAON</item>
+        <item>MANGRULPIR</item>
+        <item>MANORA</item>
+        <item>RISOD</item>
+        <item>WASHIM</item>
+    </string-array>
+
+    <string-array name="subdistrict_yavatmal">
+        <item>SELECT</item>
+        <item>ARNI</item>
+        <item>BABULGAON</item>
+        <item>DARWHA</item>
+        <item>DIGRAS</item>
+        <item>GHATANJI</item>
+        <item>KALAMB</item>
+        <item>KELAPUR</item>
+        <item>MAHAGAON</item>
+        <item>MAREGAON</item>
+        <item>NER</item>
+        <item>PUSAD</item>
+        <item>RALEGAON</item>
+        <item>UMARKHED</item>
+        <item>WANI</item>
+        <item>YAVATMAL</item>
+        <item>ZARI-JAMANI</item>
+    </string-array>
+
+
+<string name="class1">
+    "MOTOR CYCLE LESS THAN 50CC(MC50CC)"
+</string>
+
+
+<string name="class2">
+    "MOTOR CYCLE WITHOUT GEAR(NON TRANSPORT)(MCWOG)"
+</string>
+
+    <string name="class3">
+    "MOTOR CYCLE WITH GEAR(NON TRANSPORT)(MCWG)"
+</string>
+
+    <string name="class4">
+    "LMV-NT-Car(LMV)"
+</string>
+
+    <string name="class5">
+    "LMV  -TRACTOR-NT(TRCTOR)"
+</string>
+
+<string name="class6">
+    "LMV(TRANSPORT(LMV GV))"
+</string>
+
+    <string name="class7">
+    "LMV -3 WHEELER CAB(3W-CAB)"
+</string>
+
+    <string name="class8">
+    "LMV -3 WHEELER TRANSPORT GOODS NON PSV(3W-GV)"
+</string>
+
+    <string name="class9">
+    "INVALID CARRIAGE VEHICLE(INVCRG)"
+</string>
+
+<string name="class10">
+    "ROAD ROLLER(RDRLR)"
+</string>
+
+    <string name="class11">
+    "OTHER OTHERS(OTHER)"
+</string>
+
+    <string name="class12">
+    "OTHERS-LOADER/EXCAVATOR(LDRXCV)"
+</string>
+
+    <string name="class13">
+    "OTHERS-CRANES(CRANE)"
+</string>
+
+<string name="class14">
+    "OTHERS-ForkliftT(FLIFT)"
+</string>
+
+    <string name="class15">
+    "OTHERS-BORING RIGG(BRIGS)"
+</string>
+
+    <string name="class16">
+    "OTHERS-Construction Equipments(CNEQP)"
+</string>
+
+ <string name="class17">
+    "Invalid Carriage-2nd Vehicle(INVCG2)"
+</string>
+
+     <string name="class18">
+    "Invalid Carriage-3rd Vehicle(INVCG3)"
+</string>
+
+     <string name="class19">
+    "E-CART (eCART)"
+</string>
+
+    <string name="class20">
+    "E-RIKSHAW(eRIKSH)"
+</string>
+
+
+
+<string name="string1">
+    "I have been convicted/disqualified/my license was cancelled/suspended/my license was revoked?"
+</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_notification">Notification</string>
+
+
+</resources>

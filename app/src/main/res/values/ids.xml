@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="spin3" type="id" />
+    <item name="spin4" type="id" />
+    <item name="spin5" type="id" />
+    <item name="spinper" type="id" />
+    <item name="spin2per" type="id" />
+    <item name="spinsubdistrict" type="id" />
+    <item name="spindistrict" type="id" />
+</resources>

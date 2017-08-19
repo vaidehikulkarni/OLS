@@ -1,0 +1,387 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.ols.BlankFragmentNext">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+
+
+
+
+
+        <android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:context="com.example.hp.llapp.ScrollingActivity3"
+           >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="16dp"
+                android:paddingTop="10dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ADDRESS"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/firebrick"
+                    android:textSize="18dp"
+                    android:id="@+id/address" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="match_parent"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="PRESENT ADDRESS"
+                        android:textAllCaps="true"
+                        android:id="@+id/present" />
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:textStyle="bold"
+                        android:textColor="@color/red"
+                        android:text="@string/text12"
+                        android:id="@+id/textv311" />
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="(to be printed on smartcard)"
+                    android:textAllCaps="true"
+                    android:id="@+id/textv31" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="45dp"
+                        android:layout_height="match_parent"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="State"
+                        android:textAllCaps="true"
+                        android:id="@+id/state"/>
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:textStyle="bold"
+                        android:textColor="@color/red"
+                        android:text="@string/text12"
+                        android:id="@+id/star"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="MAHARASHTRA"
+                    android:textAllCaps="true"
+                    android:id="@+id/maha1" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="DISTRICT"
+                        android:textAllCaps="true"
+                        android:id="@+id/disrictname" />
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:textStyle="bold"
+                        android:textColor="@color/red"
+                        android:text="@string/text12"
+                        android:id="@+id/star1" />
+                </LinearLayout>
+
+                <Spinner
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:id="@id/spindistrict"/>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="match_parent"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="SUB-DISTRICT"
+                        android:textAllCaps="true"
+                        android:id="@+id/sub_district" />
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:textStyle="bold"
+                        android:textColor="@color/red"
+                        android:text="@string/text12"
+                        android:id="@+id/star2" />
+                </LinearLayout>
+
+                <Spinner
+                    android:layout_width="230dp"
+                    android:layout_height="match_parent"
+                    android:id="@id/spinsubdistrict" />
+
+
+
+
+
+
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+
+                    android:paddingTop="20dp"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:id="@+id/rgroup">
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:textAllCaps="true"
+                        android:textStyle="bold"
+                        android:text="Village"
+                        android:textColor="@color/colorPrimary"
+
+                        android:id="@+id/rb1" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:textAllCaps="true"
+                        android:textStyle="bold"
+                        android:text="Town"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:id="@+id/rb2" />
+
+                </RadioGroup>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:paddingLeft="25dp"
+                    android:id="@+id/village"
+                    android:hint="Village/Town Name" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="House/Door/Flat No."
+                    android:id="@+id/houseno"
+                    android:textAllCaps="true"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="(address line 1)"
+                    android:textAllCaps="true"
+                    android:id="@+id/addressline1" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="25dp"
+                    android:id="@+id/doorno"
+                    android:hint="House/Door/Flat No."/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Street/Locality/Police Station"
+                    android:id="@+id/streetno"
+                    android:textAllCaps="true"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="(address line 2)"
+                    android:textAllCaps="true"
+                    android:id="@+id/addressline2" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="25dp"
+                    android:id="@+id/localityno"
+                    android:hint="Street/Locality/Police Station"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="Location"
+                        android:textAllCaps="true"
+                        android:id="@+id/location" />
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:textStyle="bold"
+                        android:textColor="@color/red"
+                        android:text="@string/text12"
+                        android:id="@+id/star3" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="(address line 3)"
+                    android:textAllCaps="true"
+                    android:id="@+id/addressline3" />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="25dp"
+                    android:id="@+id/locationname"
+                    android:hint="Location"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="Pincode"
+                        android:textAllCaps="true"
+                        android:id="@+id/pincode" />
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:textStyle="bold"
+                        android:textColor="@color/red"
+                        android:text="@string/text12"
+                        android:id="@+id/star4" />
+                </LinearLayout>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="25dp"
+                    android:id="@+id/pincode_no"
+                    android:hint="Pincode"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="address"
+                        android:text="submit"
+                        android:textColor="@color/white"
+                        android:background="@color/colorPrimary"
+                        android:cursorVisible="true"
+                        android:gravity="center"
+                        android:id="@+id/bt5" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="35dp"
+                        android:onClick="refreshbtn"
+                        android:text="Refresh"
+                        android:textColor="@color/white"
+                        android:background="@color/colorPrimary"
+                        android:cursorVisible="true"
+                        android:gravity="center"
+                        android:id="@+id/bt6" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:onClick="cancel"
+                        android:text="Cancel"
+                        android:textColor="@color/white"
+                        android:background="@color/colorPrimary"
+                        android:cursorVisible="true"
+                        android:gravity="center"
+                        android:id="@+id/bt7" />
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+
+
+    </ScrollView>
+</FrameLayout>

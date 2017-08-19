@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/upload_documents"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Upload Documents" />
+        <item
+            android:id="@+id/upload_photo"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Upload Photo and Signature" />
+
+        <item
+            android:id="@+id/test"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Take test appointment" />
+        <item
+            android:id="@+id/fee"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Application Fee Payment" />
+        <item
+            android:id="@+id/view_list"
+          android:icon="@drawable/ic_menu_send"
+            android:title="View RTO Office List" />
+    </group>
+
+
+</menu>
